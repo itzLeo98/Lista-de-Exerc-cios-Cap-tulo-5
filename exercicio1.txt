@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+int main(){
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+
+    float nota1, nota2, nota3, nota4;
+
+    for(int i = 1; i <= 4; i++){}){
+        printf("Digite a %d nota: ", i);
+
+    }
+
+    printf("Digite as quatro notas com espaco entre elas:");
+    scanf("%f %f %f %f,", &nota1, &nota2, &nota3, &nota4);
+
+    printf("A media das notas e: %.2f\n"),(nota1 + nota2 + nota3 + nota4) / 4);
+
+    system("PAUSE");
+
+    return 0; 
+
+
+
+
+
+
+
+}
